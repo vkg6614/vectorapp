@@ -15,34 +15,43 @@ const BottomHeader = () => {
       <div>
         {bottomHeaderLists.map((list, index) => (
           <div key={index + 1}>
-            <img src={list.image} alt={`${list.Symbol1}logo`} width="40px" />
+            <div>
+              <img src={list.image} alt={`${list.Symbol1}logo`} width="40px" />
+              <div>
+                <h4>{list.Symbol1}</h4>
+                <p>ON TRADER JOE</p>
+              </div>
+            </div>
 
             <div>
-              <h4>{list.Symbol1}</h4>
-              <p>ON TRADER JOE</p>
-            </div>
-            <div>
-              <p>APR</p>
               <div>
-                <span>{list.percentage}%</span>
-                <span>i</span>
+                <p>APR</p>
+                <div>
+                  <span>{list.percentage}%</span>
+                  <span>i</span>
+                </div>
+              </div>
+
+              <div>
+                <p>{list.heading}</p>
+                <span>O.OO {list.Symbol2}</span>
               </div>
             </div>
+
             <div>
-              <p>{list.heading}</p>
-              <span>O.OO {list.Symbol2}</span>
-            </div>
-            <div>
-              <p>TVL</p>
-              <p>${list.totalPrice}</p>
-            </div>
-            <div>
-              <p>Claimable</p>
               <div>
-                <span>$O.OO</span>
-                <span>i</span>
+                <p>TVL</p>
+                <p>${list.totalPrice}</p>
+              </div>
+              <div>
+                <p>Claimable</p>
+                <div>
+                  <span>$O.OO</span>
+                  <span>i</span>
+                </div>
               </div>
             </div>
+
             <svg
               stroke="currentColor"
               fill="currentColor"

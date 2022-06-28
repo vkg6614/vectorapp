@@ -7,9 +7,9 @@ export const HeaderMainContainer = styled.div`
     text-transform: uppercase;
     width: 75%;
     margin: 0 auto;
-    padding: 18px 0;
     font-size: 0.97rem;
-    padding-top: 110px;
+    margin-bottom: 22px;
+    padding-top: 115px;
   }
 `;
 export const HeaderTopDiv = styled.div`
@@ -40,7 +40,7 @@ export const HeaderTopDiv = styled.div`
   }
 
   & > div > div span:nth-child(1) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   & > div > div span:nth-child(2) {
@@ -54,7 +54,7 @@ export const BottomDiv = styled.div`
   justify-content: space-between;
   font-size: 0.7rem;
   align-items: center;
-  padding: 0.8em;
+  padding: 0.72em;
   background-color: rgb(26, 26, 54);
   margin: 0 auto;
   margin-top: 5px;
