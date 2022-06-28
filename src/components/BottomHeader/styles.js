@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+
 export const BottomHeaderMainContainer = styled.div`
   width: 75%;
   margin: 0 auto;
@@ -32,11 +33,6 @@ export const BottomHeaderMainContainer = styled.div`
 
   & > div:nth-child(2) > div > div:nth-child(3) {
     margin-left: -80px;
-  }
-  ${
-    "" /* 
-  & > div:nth-child(2) > div > div:nth-child(1) img {
-  } */
   }
 
   & > div:nth-child(2) > div > div:nth-child(1) div:last-child {
@@ -133,5 +129,31 @@ export const BottomHeaderMainContainer = styled.div`
     color: rgb(174, 243, 60);
     font-weight: bold;
     font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    & > div:nth-child(2) > div > div:nth-child(1) {
+      display: flex;
+      width: 40%;
+      justify-content: space-between;
+    }
+
+    & > div:nth-child(2) > div > div:nth-child(2) {
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    & > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) {
+      display: none;
+    }
+
+    & > div:nth-child(2) > div > div:nth-child(3) {
+      display: none;
+    }
   }
 `;

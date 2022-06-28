@@ -23,19 +23,40 @@ export const NavbarMainContainer = styled.div`
     display: flex;
     align-items: center;
   }
+
+  @media screen and (max-width: 500px) {
+    & > div:nth-child(1) > div:nth-child(2) {
+      display: none;
+    }
+
+    & > div > div > div img {
+      margin-right: 5px;
+      width: 18px;
+    }
+
+    & > div:nth-child(1) {
+      margin-right: 0;
+    }
+  }
 `;
 
 export const LogoDiv = styled.div`
   color: white;
   display: flex;
-  margin-right: -275px;
+  margin-right: 1.6em;
   align-items: center;
+  @media screen and (max-width: 500px) {
+    margin-right: 0;
+  }
 `;
 
 export const LogoText = styled.p`
   letter-spacing: 0.3em;
-  margin-left: 0.8em;
+  margin-left: 0.7em;
   font-size: 1.3rem;
+
+  @media screen and (max-width: 500px) {
+  }
 `;
 
 export const IconsBtn = styled.p`
@@ -52,6 +73,9 @@ export const MoreSelected = styled.div`
 export const PriceIconBtn = styled.div`
   & > div {
     margin-right: 1.2em;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
   }
   & img {
     margin-right: 10px;
@@ -60,6 +84,8 @@ export const PriceIconBtn = styled.div`
   & p {
     font-size: 0.9rem;
     font-weight: bold;
+  }
+  @media screen and (max-width: 900px) {
   }
 `;
 
@@ -70,9 +96,25 @@ export const WalletDiv = styled.div`
     border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 0.65em 0.9em 0.65em 0.9em;
   border-radius: 5px;
-  margin-left: -270px;
+  margin-left: 1.8em;
   & p {
     font-size: 0.9rem;
     margin-left: 0.6em;
+  }
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    text-align: center;
+    & p {
+      font-size: 0.8rem;
+      margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-left: 0;
+    & p {
+      display: none;
+    }
   }
 `;

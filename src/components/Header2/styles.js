@@ -28,4 +28,11 @@ export const Header2MainContainer = styled.div`
 
     font-weight: bold;
   }
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;

@@ -11,6 +11,11 @@ export const HeaderMainContainer = styled.div`
     margin-bottom: 22px;
     padding-top: 115px;
   }
+  @media screen and (max-width: 1000px) {
+    & > h3 {
+      width: 100%;
+    }
+  }
 `;
 export const HeaderTopDiv = styled.div`
   width: 75%;
@@ -47,6 +52,9 @@ export const HeaderTopDiv = styled.div`
     font-size: 0.8rem;
     margin-left: 0.5em;
   }
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 export const BottomDiv = styled.div`
   width: 75%;
@@ -58,4 +66,7 @@ export const BottomDiv = styled.div`
   background-color: rgb(26, 26, 54);
   margin: 0 auto;
   margin-top: 5px;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
 `;
