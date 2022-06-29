@@ -1,4 +1,4 @@
-const iconButtons = ["Stack", "Claim", "Lock"];
+const iconButtons = ["Stake", "Claim", "Lock"];
 export const priceIconButtons = [
   {
     images: "https://vectorfinance.io/static/media/VTX.44f352d3.svg",

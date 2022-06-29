@@ -25,7 +25,8 @@ export const Header2MainContainer = styled.div`
   }
   & > div > p:nth-child(2) {
     font-size: 0.95rem;
-
+    font-family: "DM Mono", monospace;
+    border: 1px solid black;
     font-weight: bold;
   }
   @media screen and (max-width: 1000px) {

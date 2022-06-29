@@ -6,7 +6,6 @@ import {
   NavbarMainContainer,
   LogoDiv,
   MoreSelected,
-  LogoText,
   PriceIconBtn,
   WalletDiv,
 } from "./styles";
@@ -28,9 +27,10 @@ const Navbar = () => {
             src="https://vectorfinance.io/static/media/VectorLogo.3842f176.svg"
             alt="vector-logo"
           />
-          <LogoText>
-            VE<strong>CTOR</strong>
-          </LogoText>
+          <img
+            src="https://vectorfinance.io/static/media/VectorText.def34a6f.svg"
+            alt="vector-text"
+          />
         </LogoDiv>
 
         <div>
@@ -43,6 +43,7 @@ const Navbar = () => {
                 activeIcon === index + 1
                   ? {
                       color: "white",
+                      fontWeight: "bold",
                       borderTop: "3px solid rgb(104, 105, 231)",
                     }
                   : { color: "rgb(199, 199, 225)" }

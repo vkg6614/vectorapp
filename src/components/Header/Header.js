@@ -8,7 +8,7 @@ import { HeaderMainContainer, HeaderTopDiv, BottomDiv } from "./styles";
 const Header = () => {
   return (
     <HeaderMainContainer>
-      <h3>Stake Funds</h3>
+      <p>Stake Funds</p>
       <HeaderTopDiv>
         {headerData.map((data, index) => (
           <div key={index + 1}>

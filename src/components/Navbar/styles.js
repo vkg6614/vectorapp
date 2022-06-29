@@ -9,7 +9,11 @@ export const NavbarMainContainer = styled.div`
   justify-content: space-between;
   color: white;
   padding: 0 1.5em;
-  background-color: rgb(26, 26, 54);
+  background-image: linear-gradient(
+    to left,
+    rgb(26, 26, 54) 95%,
+    rgb(38, 38, 83)
+  );
   & > div {
     display: flex;
     align-items: center;
@@ -45,29 +49,26 @@ export const LogoDiv = styled.div`
   display: flex;
   margin-right: 1.6em;
   align-items: center;
+
+  & img:nth-child(2) {
+    margin-left: 0.87em;
+    padding-right: 0.68em;
+  }
+
   @media screen and (max-width: 500px) {
     margin-right: 0;
   }
 `;
 
-export const LogoText = styled.p`
-  letter-spacing: 0.3em;
-  margin-left: 0.7em;
-  font-size: 1.3rem;
-
-  @media screen and (max-width: 500px) {
-  }
-`;
-
 export const IconsBtn = styled.p`
-  padding: 2.2em 1em;
-  font-size: 0.9rem;
-  font-weight: bold;
+  padding: 2.4em 1.2em;
+  font-size: 0.8rem;
 `;
 
 export const MoreSelected = styled.div`
   color: rgb(199, 199, 225);
   margin-left: 1.2em;
+  font-size: 0.8rem;
 `;
 
 export const PriceIconBtn = styled.div`
@@ -100,6 +101,7 @@ export const WalletDiv = styled.div`
   & p {
     font-size: 0.9rem;
     margin-left: 0.6em;
+    font-family: DM Sans;
   }
 
   @media screen and (max-width: 1000px) {

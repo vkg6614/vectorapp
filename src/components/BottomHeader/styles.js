@@ -40,9 +40,38 @@ export const BottomHeaderMainContainer = styled.div`
     justify-content: center;
   }
 
+  & > div:nth-child(2) > div > div:nth-child(1) div:last-child h4 {
+    font-family: Nunito, sans-serif;
+  }
+
+  & > div:nth-child(2) > div:nth-child(1) {
+    background-image: linear-gradient(
+      to left,
+      rgb(36, 36, 74) 85%,
+      rgb(60, 61, 131)
+    );
+  }
+
+  & > div:nth-child(2) > div:nth-child(2) {
+    background-image: linear-gradient(
+      to left,
+      rgb(36, 36, 74) 85%,
+      rgb(24, 68, 118)
+    );
+  }
+
+  & > div:nth-child(2) > div:nth-child(3) {
+    background-image: linear-gradient(
+      to left,
+      rgb(36, 36, 74) 85%,
+      rgb(104, 61, 84)
+    );
+  }
+
   & > div:nth-child(2) > div > div:nth-child(2) > div:last-child span {
     color: rgb(113, 114, 153);
     font-size: 0.9rem;
+
     font-weight: bold;
   }
 
@@ -59,7 +88,6 @@ export const BottomHeaderMainContainer = styled.div`
 
   & > div:nth-child(2) > div {
     display: flex;
-    background-color: rgb(36, 36, 74);
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
