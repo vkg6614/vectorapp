@@ -46,7 +46,10 @@ const Navbar = () => {
                       fontWeight: "bold",
                       borderTop: "3px solid rgb(104, 105, 231)",
                     }
-                  : { color: "rgb(199, 199, 225)" }
+                  : {
+                      color: "rgb(199, 199, 225)",
+                      borderTop: "3px solid rgb(26,26,54)",
+                    }
               }
               key={index + 1}
             >

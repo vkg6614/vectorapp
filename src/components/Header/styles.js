@@ -7,9 +7,9 @@ export const HeaderMainContainer = styled.div`
     text-transform: uppercase;
     width: 75%;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.4px;
     margin: 0 auto;
-    font-size: 0.97rem;
+    font-size: 1.1rem;
     margin-bottom: 22px;
     padding-top: 110px;
   }
@@ -38,7 +38,7 @@ export const HeaderTopDiv = styled.div`
 
   & > div > p {
     font-size: 0.72em;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     color: rgb(199, 199, 225);
   }
 
@@ -47,7 +47,7 @@ export const HeaderTopDiv = styled.div`
   }
 
   & > div > div span:nth-child(1) {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     letter-spacing: px;
   }
 
@@ -63,9 +63,9 @@ export const BottomDiv = styled.div`
   width: 75%;
   display: flex;
   justify-content: space-between;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   align-items: center;
-  padding: 0.72em;
+  padding: 0.5em 1.4em;
   background-color: rgb(26, 26, 54);
   margin: 0 auto;
   margin-top: 5px;

@@ -33,11 +33,6 @@ export const NavbarMainContainer = styled.div`
       display: none;
     }
 
-    & > div > div > div img {
-      margin-right: 5px;
-      width: 18px;
-    }
-
     & > div:nth-child(1) {
       margin-right: 0;
     }
@@ -45,7 +40,6 @@ export const NavbarMainContainer = styled.div`
 `;
 
 export const LogoDiv = styled.div`
-  color: white;
   display: flex;
   margin-right: 1.6em;
   align-items: center;
@@ -61,8 +55,9 @@ export const LogoDiv = styled.div`
 `;
 
 export const IconsBtn = styled.p`
-  padding: 2.4em 1.2em;
-  font-size: 0.8rem;
+  padding: 2em 1.05em;
+  font-size: 0.9rem;
+  font-family: DM Sans, sans-serif;
 `;
 
 export const MoreSelected = styled.div`
@@ -85,8 +80,6 @@ export const PriceIconBtn = styled.div`
   & p {
     font-size: 0.9rem;
     font-weight: bold;
-  }
-  @media screen and (max-width: 900px) {
   }
 `;
 

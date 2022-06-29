@@ -10,7 +10,7 @@ export const Header2MainContainer = styled.div`
   & > div {
     border-left: 1px solid rgb(36, 36, 74);
     width: 20%;
-    padding: 18px 0.8em;
+    padding: 16px 1em;
     background-color: rgb(26, 26, 54);
   }
 
@@ -24,10 +24,9 @@ export const Header2MainContainer = styled.div`
     color: rgb(199, 199, 225);
   }
   & > div > p:nth-child(2) {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-family: "DM Mono", monospace;
-    border: 1px solid black;
-    font-weight: bold;
+    font-weight: 500;
   }
   @media screen and (max-width: 1000px) {
     width: 100%;

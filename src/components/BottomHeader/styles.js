@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 export const BottomHeaderMainContainer = styled.div`
   width: 75%;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 29px;
   padding-bottom: 15px;
 
   & > div:nth-child(1) {
@@ -12,8 +12,9 @@ export const BottomHeaderMainContainer = styled.div`
     align-items: center;
   }
   & > div:nth-child(1) > div:nth-child(1) {
-    width: 14%;
+    width: 13%;
     font-size: 0.9rem;
+    letter-spacing: 1.5px;
   }
 
   & > div:nth-child(1) > div:last-child {
@@ -23,7 +24,7 @@ export const BottomHeaderMainContainer = styled.div`
   }
 
   & > div:nth-child(2) {
-    margin-top: 18px;
+    margin-top: 16px;
   }
 
   & > div:nth-child(2) > div > div:nth-child(2) {
@@ -82,6 +83,7 @@ export const BottomHeaderMainContainer = styled.div`
     > div:last-child
     span:nth-child(1) {
     color: rgb(113, 114, 153);
+
     font-size: 0.9rem;
     font-weight: bold;
   }

@@ -34,7 +34,7 @@ const BottomHeader = () => {
 
               <div>
                 <p>{list.heading}</p>
-                <span>O.OO {list.Symbol2}</span>
+                <span>0.00 {list.Symbol2}</span>
               </div>
             </div>
 
@@ -46,7 +46,7 @@ const BottomHeader = () => {
               <div>
                 <p>Claimable</p>
                 <div>
-                  <span>$O.OO</span>
+                  <span>$0.00</span>
                   <span>i</span>
                 </div>
               </div>
