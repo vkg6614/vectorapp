@@ -28,12 +28,14 @@ export const BottomHeaderMainContainer = styled.div`
   }
 
   & > div:nth-child(2) > div > div:nth-child(2) {
-    margin-left: -120px;
+    margin-left: -92px;
     padding-right: 1em;
+    width: 19%;
   }
 
   & > div:nth-child(2) > div > div:nth-child(3) {
-    margin-left: -80px;
+    margin-left: -75px;
+    width: 22%;
   }
 
   & > div:nth-child(2) > div > div:nth-child(1) div:last-child {
@@ -72,7 +74,6 @@ export const BottomHeaderMainContainer = styled.div`
   & > div:nth-child(2) > div > div:nth-child(2) > div:last-child span {
     color: rgb(113, 114, 153);
     font-size: 0.9rem;
-
     font-weight: bold;
   }
 
@@ -83,7 +84,6 @@ export const BottomHeaderMainContainer = styled.div`
     > div:last-child
     span:nth-child(1) {
     color: rgb(113, 114, 153);
-
     font-size: 0.9rem;
     font-weight: bold;
   }
@@ -109,13 +109,12 @@ export const BottomHeaderMainContainer = styled.div`
   }
 
   & > div:nth-child(2) > div > div p:nth-child(1) {
-    margin-bottom: 7px;
+    margin-bottom: 5px;
     color: rgb(199, 199, 225);
     font-size: 0.9rem;
   }
 
   & > div:nth-child(2) > div > div:nth-child(3) p:nth-child(2) {
-    font-weight: bold;
     font-size: 0.9rem;
   }
 

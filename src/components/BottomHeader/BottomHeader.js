@@ -34,7 +34,7 @@ const BottomHeader = () => {
 
               <div>
                 <p>{list.heading}</p>
-                <span>0.00 {list.Symbol2}</span>
+                <span>0.0 {list.Symbol2}</span>
               </div>
             </div>
 
